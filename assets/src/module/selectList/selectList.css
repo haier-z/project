@@ -1,0 +1,92 @@
+@charset "utf-8";
+/**
+ *   @section 针对某些情况下，行高不生效。
+ *   原理：决定行高的是行内最高的元素的值。
+ */
+.selectList-wrapper {
+  width: 100%;
+  position: relative;
+}
+.selectList-wrapper .selectList {
+  background: url('/src/med/module/ui/selectList/selectIcon.png') right 0 no-repeat;
+  border: 1px solid #dfdfdf;
+  padding: 0 10px 10px 10px;
+  height: 27px;
+  width: 278px;
+}
+.selectList-wrapper .selectList.now {
+  background-position: right -42px;
+}
+.selectList-wrapper .selectList .selectList-tag {
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  color: #8c8c8c;
+  background: #f2f2f2;
+  padding: 0 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+.selectList-wrapper .selectList .selectList-tag .selectList-tag-delete {
+  text-decoration: none;
+  color: #333;
+}
+.selectList-wrapper .selectList .selectList-tag .selectList-tag-delete:hover {
+  color: #585858;
+}
+.selectList-wrapper .selectList .selectList-search {
+  display: inline-block;
+  width: 12em;
+  border: none;
+  background: none;
+  max-width: 100%!important;
+  margin-top: 7px;
+  padding: 1px;
+  height: 20px;
+  line-height: 20px;
+  box-shadow: none;
+  outline: none!important;
+}
+.selectList-wrapper .selectList-item-wrapper {
+  width: 100%;
+  background: #fff;
+  max-height: 200px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #dfdfdf;
+  border-top: none;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  z-index: 4000;
+  border-radius: 0 0 4px 4px;
+}
+.selectList-wrapper .selectList-item-wrapper.none {
+  display: none;
+}
+.selectList-wrapper .selectList-item-wrapper .select-list-item {
+  width: 100%;
+  height: 32px;
+  display: inline-block;
+  line-height: 32px;
+  color: #999;
+  padding: 0 10px;
+  cursor: default;
+}
+.selectList-wrapper .selectList-item-wrapper .select-list-item:hover {
+  text-decoration: none;
+}
+.selectList-wrapper .selectList-item-wrapper .select-list-item:visited,
+.selectList-wrapper .selectList-item-wrapper .select-list-item:link {
+  outline: none;
+  text-decoration: none;
+}
+.selectList-wrapper .selectList-item-wrapper .select-list-item.use {
+  cursor: pointer;
+}
+.selectList-wrapper .selectList-item-wrapper .select-list-item.use:hover,
+.selectList-wrapper .selectList-item-wrapper .select-list-item.use.choosed {
+  background: #4d639c;
+  color: #fff;
+}

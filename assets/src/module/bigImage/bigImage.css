@@ -1,0 +1,109 @@
+@charset "utf-8";
+/**
+ *   @section 针对某些情况下，行高不生效。
+ *   原理：决定行高的是行内最高的元素的值。
+ */
+.MED-img-wrapper {
+  padding: 12px 16px 16px;
+  background: #f2f2f5;
+}
+.MED-img-wrapper.none {
+  display: none;
+}
+.MED-img-wrapper .media_show_box {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  cursor: url("/assets/src/module/bigImage/img/small.cur"), auto;
+}
+.MED-img-wrapper .media_show_box img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+}
+.MED-img-wrapper .pic_choose_box {
+  height: 56px;
+  margin-top: 10px;
+  width: 100%;
+}
+.MED-img-wrapper .pic_choose_box .arrow_small {
+  display: inline-block;
+  font-weight: 600;
+  height: 50px;
+  line-height: 50px;
+  margin-top: 3px;
+  text-align: center;
+  text-decoration: none;
+  width: 12px;
+  background: #fff;
+}
+.MED-img-wrapper .pic_choose_box .arrow_small.arrow_dis {
+  cursor: default;
+}
+.MED-img-wrapper .pic_choose_box .arrow_small.arrow_dis .icon-font {
+  color: #757575;
+}
+.MED-img-wrapper .pic_choose_box .arrow_left_small {
+  margin-right: 3px;
+  border-radius: 4px 0 0 4px;
+  float: left;
+}
+.MED-img-wrapper .pic_choose_box .arrow_right_small {
+  border-radius: 0 4px 4px 0;
+  float: right;
+}
+.MED-img-wrapper .stage_box {
+  margin: 0 20px;
+  height: 56px;
+  overflow: hidden;
+}
+.MED-img-wrapper .choose_box {
+  height: 56px;
+  list-style-type: none;
+}
+.MED-img-wrapper .choose_box li {
+  float: left;
+  height: 56px;
+  margin: 0 3px 0 0;
+  width: 56px;
+  list-style-type: none;
+}
+.MED-img-wrapper .choose_box li a {
+  display: inline-block;
+  opacity: 0.5;
+  padding: 2px;
+}
+.MED-img-wrapper .choose_box li a:hover,
+.MED-img-wrapper .choose_box li a.current {
+  border: 2px solid #eb7350;
+  padding: 0;
+  opacity: 1;
+  text-decoration: none;
+}
+.MED-img-wrapper .choose_box li a:hover img,
+.MED-img-wrapper .choose_box li a.current img {
+  outline: none;
+  border-color: #fff;
+}
+.MED-img-wrapper .choose_box li a.current {
+  cursor: default;
+}
+.MED-img-wrapper .choose_box li a img {
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  height: 50px;
+  width: 50px;
+}
+.img-loading {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -8px;
+  margin-top: -8px;
+  background: url("/assets/src/module/bigImage/img/loading-arrow-16.gif") 0 0 no-repeat;
+  background-size: 100% 100%;
+}

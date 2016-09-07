@@ -1,0 +1,103 @@
+@charset "utf-8";
+.MED-img-wrapper {
+    padding: 12px 16px 16px;
+    background: #f2f2f5;
+    &.none {
+        display: none;
+    }
+    .media_show_box {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        cursor: url("/assets/src/module/bigImage/img/small.cur"), auto;
+        img {
+            display: inline-block;
+            vertical-align: middle;
+            max-width: 100%;
+        }
+    }
+    .pic_choose_box {
+        height: 56px;
+        margin-top: 10px;
+        width: 100%;
+        .arrow_small {
+            display: inline-block;
+            font-weight: 600;
+            height: 50px;
+            line-height: 50px;
+            margin-top: 3px;
+            text-align: center;
+            text-decoration: none;
+            width: 12px;
+            background: #fff;
+            &.arrow_dis {
+                cursor: default;
+                .icon-font {
+                    color: #757575;
+                }
+            }
+        }
+        .arrow_left_small {
+            margin-right: 3px;
+            border-radius: 4px 0 0 4px;
+            float: left;
+        }
+        .arrow_right_small {
+            border-radius: 0 4px 4px 0;
+            float: right;
+        }
+    }
+    .stage_box {
+        margin: 0 20px;
+        height: 56px;
+        overflow: hidden;
+    }
+    .choose_box {
+        height: 56px;
+        list-style-type: none;
+        li {
+            float: left;
+            height: 56px;
+            margin: 0 3px 0 0;
+            width: 56px;
+            list-style-type: none;
+            a {
+                display: inline-block;
+                opacity: 0.5;
+                padding: 2px;
+                &:hover, &.current {
+                    border: 2px solid #eb7350;
+                    padding: 0;
+                    opacity: 1;
+                    text-decoration: none;
+                    img {
+                        outline: none;
+                        border-color: #fff;
+                    }
+                }
+                &.current {
+                    cursor: default;
+                }
+                img {
+                    border-style: solid;
+                    border-width: 1px;
+                    display: block;
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+.img-loading {
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -8px;
+    margin-top: -8px;
+    background: url("/assets/src/module/bigImage/img/loading-arrow-16.gif") 0 0 no-repeat;
+    background-size: 100% 100%;
+}

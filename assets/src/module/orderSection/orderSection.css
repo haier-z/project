@@ -1,0 +1,183 @@
+@charset "utf-8";
+/**
+ *   @section 针对某些情况下，行高不生效。
+ *   原理：决定行高的是行内最高的元素的值。
+ */
+.clearfix:after {
+  display: block;
+  content: "";
+  height: 0;
+  visibility: hidden;
+  *zoom: 0;
+  clear: both;
+}
+.section-wrapper {
+  width: 650px;
+  background: #fff;
+}
+.section-wrapper .section-header {
+  padding: 20px 24px 8px 24px;
+  height: 32px;
+  line-height: 32px;
+  color: #555;
+  font-size: 16px;
+}
+.section-wrapper .section-header .g-state-btn {
+  float: right;
+  margin-left: 10px;
+}
+.section-wrapper .section-header .section-submit-btn {
+  border: 1px solid #dbdbdb;
+  width: 88px;
+  height: 30px;
+  text-align: center;
+  display: inline-block;
+  line-height: 30px;
+  color: #222;
+  font-size: 13px;
+  position: relative;
+}
+.section-wrapper .section-header .section-submit-btn:hover {
+  background: #007aff;
+  color: #fff;
+  border-color: #007aff;
+}
+.section-wrapper .section-header .section-submit-btn img {
+  left: 12px;
+  position: absolute;
+  top: 7px;
+}
+.section-wrapper .section-header .section-converge {
+  float: right;
+  color: #999;
+  font-size: 13px;
+}
+.section-wrapper .section-header .section-converge .section-number {
+  color: #007aff;
+  margin-left: 5px;
+}
+.section-wrapper .section-header .section-converge.warning {
+  color: #f00;
+}
+.section-wrapper .section-header .section-converge.warning .section-number {
+  color: #f00;
+}
+.section-wrapper .section-choose-result-wrapper {
+  padding: 0 6px 0 20px;
+}
+.section-wrapper .section-choose-result-wrapper .section-result-item {
+  padding: 0 25px;
+  color: #fff;
+  background: #007aff;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  display: inline-block;
+  float: left;
+  margin-right: 14px;
+  white-space: nowrap;
+  position: relative;
+  margin-top: 12px;
+}
+.section-wrapper .section-choose-result-wrapper .section-result-item .section-remove {
+  position: absolute;
+  right: -8px;
+  top: -4px;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+.section-wrapper .section-choose-wrapper {
+  margin-top: 10px;
+  border-top: 1px solid #eaeaea;
+  overflow: hidden;
+}
+.section-wrapper .section-choose-wrapper .section-choose-line {
+  width: 651px;
+}
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag {
+  float: left;
+  border-right: 1px solid #eaeaea;
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+  width: 216px;
+  height: 53px;
+  padding-top: 17px;
+  display: inline-block;
+  color: #222;
+}
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag .icon {
+  margin: 0;
+}
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag .icon.below-blue-icon {
+  display: none;
+}
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag:hover,
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag.hover {
+  color: #007eff;
+}
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag:hover .icon.below-blue-icon,
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag.hover .icon.below-blue-icon {
+  display: inline-block;
+}
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag:hover .icon.below-icon,
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag.hover .icon.below-icon {
+  display: none;
+}
+.section-wrapper .section-choose-wrapper .section-choose-line .section-choose-tag.hover {
+  border-bottom: 1px solid #fff;
+}
+.section-wrapper .section-choose-wrapper .section-choose-child-tag-wrapper {
+  padding: 16px 6px 30px 20px;
+  display: none;
+  border-bottom: 1px solid #f4f4f4;
+}
+.section-wrapper .section-choose-wrapper .section-choose-child-tag-wrapper.current {
+  display: block;
+}
+.section-wrapper .section-choose-wrapper .section-choose-child-tag-wrapper .section-choose-child-tag {
+  padding: 0 38px;
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #dbdbdb;
+  color: #555;
+  display: inline-block;
+  margin-right: 14px;
+  margin-top: 14px;
+  float: left;
+  text-align: center;
+}
+.section-wrapper .section-choose-wrapper .section-choose-child-tag-wrapper .section-choose-child-tag:hover {
+  background: #f0f0f0;
+}
+.section-wrapper .section-choose-wrapper .section-choose-child-tag-wrapper .section-choose-child-tag.selected {
+  background: #007aff;
+  border: 1px solid #007aff;
+  color: #fff;
+  cursor: default;
+}
+.icon {
+  background: url("/src/med/module/ui/orderSection/img/feed-icon.png") 0 0 no-repeat;
+  display: inline-block;
+  height: 20px;
+  line-height: 1;
+  position: relative;
+  width: 19px;
+}
+.icon.close-icon {
+  background-position: 0 -21px;
+}
+.icon.below-icon {
+  background-position: -19px -20px;
+}
+.icon.below-blue-icon {
+  background-position: -38px -20px;
+}
+@media screen and (-webkit-device-pixel-ratio: 2) {
+  .icon.close-icon {
+    height: 18px!important;
+    background-image: url("/src/med/module/ui/orderSection/img/feed-icon-close-2x.png");
+    background-size: 100% 100%;
+    background-position: 0 0;
+  }
+}

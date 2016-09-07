@@ -1,0 +1,88 @@
+@import '../../../dependence/core';
+@charset "utf-8";
+.selectList-wrapper {
+    width: 100%;
+    position: relative;
+    .selectList {
+        background: url('@{global-img-prefix}/med/module/ui/selectList/selectIcon.png') right 0 no-repeat;
+        border: 1px solid #dfdfdf;
+        padding: 0 10px 10px 10px;
+        height: 27px;
+        width: 278px;
+        &.now {
+            background-position: right -42px;
+        }
+        .selectList-tag {
+            display: inline-block;
+            height: 20px;
+            line-height: 20px;
+            color: #8c8c8c;
+            background: #f2f2f2;
+            padding: 0 10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            white-space: nowrap;
+            .selectList-tag-delete {
+                text-decoration: none;
+                color: #333;
+                &:hover {
+                    color: #585858;
+                }
+            }
+        }
+        .selectList-search {
+            display: inline-block;
+            width: 12em;
+            border: none;
+            background: none;
+            max-width: 100%!important;
+            margin-top: 7px;
+            padding: 1px;
+            height: 20px;
+            line-height: 20px;
+            box-shadow: none;
+            outline: none!important;
+        }
+    }
+    .selectList-item-wrapper {
+        &.none {
+            display: none;
+        }
+        width: 100%;
+        position: absolute;
+        background: #fff;
+        max-height: 200px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        border: 1px solid #dfdfdf;
+        border-top: none;
+        position: absolute;
+        left: 0;
+        top: 40px;
+        z-index: 4000;
+        border-radius: 0 0 4px 4px;
+        .select-list-item {
+            width: 100%;
+            height: 32px;
+            display: inline-block;
+            line-height: 32px;
+            color: #999;
+            padding: 0 10px;
+            cursor: default;
+            &:hover {
+                text-decoration: none;
+            }
+            &:visited,&:link {
+                outline: none;
+                text-decoration: none;
+            }
+            &.use {
+                cursor: pointer;
+                &:hover,&.choosed {
+                    background: #4d639c;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
