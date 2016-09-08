@@ -2,49 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b56bb359-e196-422e-bd96-65bb8f8e3a89" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/bigImage/img/big.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/img/feed-icon-close-2x.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/img/feed-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/bigImage/img/loading-arrow-16.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/selectList/selectIcon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/bigImage/img/small.cur" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/bigImage/bigImage.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/bigImage/bigImage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/bigImage/bigImage.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/base/checkDataType.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/choosedTagTpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/libs/require/css.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/delegate/delegate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/dialog/dialog.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/dialog/dialog.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/dialog/dialog.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/libs/fastclick.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/base/interactive.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/libs/jquery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/selector/matchExpr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/selector/matchSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/orderSection.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/orderSection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/orderSection.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/libs/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/bigImage/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/dialog/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/selectList/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/delegate/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/selector/readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/libs/require/require.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/libs/require/require.text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/scrollLoad.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/sectionChildTpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/orderSection/sectionModalTpl.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/selectList/selectList.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/selectList/selectList.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/module/selectList/selectList.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/selector/selector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/slider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/libs/template.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/libs/zepto-1.1.6.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/src/utils/inherit/extendClass.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Aproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +30,7 @@
       <file leaf-file-name="dialog.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/src/module/dialog/dialog.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="22" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8494">
+            <state line="9" column="22" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="279" max-vertical-offset="8494">
               <folding />
             </state>
           </provider>
@@ -88,7 +48,7 @@
       <file leaf-file-name="scrollLoad.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/src/utils/scrollLoad.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="2341" max-vertical-offset="3317">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3317">
               <folding />
             </state>
           </provider>
@@ -97,7 +57,7 @@
       <file leaf-file-name="slider.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/src/utils/slider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="167" column="0" selection-start="4577" selection-end="4577" vertical-scroll-proportion="-23.666666" vertical-offset="4538" max-vertical-offset="5487">
+            <state line="14" column="9" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5487">
               <folding />
             </state>
           </provider>
@@ -115,16 +75,16 @@
       <file leaf-file-name="interactive.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/src/base/interactive.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="24" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1612">
+            <state line="38" column="7" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1612">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="selector.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/src/utils/selector/selector.js">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1147">
+            <state line="15" column="2" selection-start="267" selection-end="267" vertical-scroll-proportion="0.47643444" vertical-offset="0" max-vertical-offset="976">
               <folding />
             </state>
           </provider>
@@ -146,6 +106,7 @@
         <option value="$PROJECT_DIR$/assets/src/libs/require/require.js" />
         <option value="$PROJECT_DIR$/assets/src/utils/selector/readme.md" />
         <option value="$PROJECT_DIR$/assets/src/utils/delegate/readme.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -181,6 +142,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,37 +201,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="module" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="selector" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Aproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="delegate" />
+              <option name="myItemId" value="selectList" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,6 +228,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Aproject" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bigImage" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -337,11 +299,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="D:/docker-images/workdir/h5/d2d" />
+    <property name="last_opened_file_path" value="D:/docker-images/workdir/med3/med3-app-web" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -390,7 +351,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19539614" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19753747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -398,11 +359,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -422,18 +383,58 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/assets/src/libs/require/css.js">
+    <entry file="file://$PROJECT_DIR$/assets/src/module/dialog/dialog.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5270">
+        <state line="9" column="22" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8494">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/module/selectList/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="186">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/utils/scrollLoad.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3317">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/utils/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="0" selection-start="4577" selection-end="4577" vertical-scroll-proportion="0.0" vertical-offset="4538" max-vertical-offset="5487">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/base/checkDataType.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/base/interactive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="7" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/libs/require/css.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="32" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5270" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/libs/require/require.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2127" column="12" selection-start="84984" selection-end="84984" vertical-scroll-proportion="0.0" vertical-offset="65811" max-vertical-offset="66774">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -459,9 +460,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/utils/delegate/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/utils/delegate/delegate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="0" selection-start="4496" selection-end="4496" vertical-scroll-proportion="1.2540984" vertical-offset="2837" max-vertical-offset="4836" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/utils/selector/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="976" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/utils/selector/selector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="22" selection-start="845" selection-end="845" vertical-scroll-proportion="0.79405737" vertical-offset="0" max-vertical-offset="1147" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/src/utils/inherit/extendClass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="9" selection-start="692" selection-end="692" vertical-scroll-proportion="0.69877046" vertical-offset="0" max-vertical-offset="976" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/utils/slider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="167" column="0" selection-start="4577" selection-end="4577" vertical-scroll-proportion="-23.666666" vertical-offset="4538" max-vertical-offset="5487">
+        <state line="14" column="9" selection-start="300" selection-end="300" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5487">
           <folding />
         </state>
       </provider>
@@ -475,35 +501,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/src/base/interactive.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="24" selection-start="712" selection-end="712" vertical-scroll-proportion="0.0" vertical-offset="636" max-vertical-offset="1612">
+        <state line="38" column="7" selection-start="741" selection-end="741" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/utils/delegate/readme.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="11" selection-start="11" selection-end="11" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="950">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/utils/delegate/delegate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="0" selection-start="4496" selection-end="4496" vertical-scroll-proportion="1.2540984" vertical-offset="2837" max-vertical-offset="4836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/utils/selector/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/src/utils/selector/selector.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1147">
+        <state line="15" column="2" selection-start="267" selection-end="267" vertical-scroll-proportion="0.47643444" vertical-offset="0" max-vertical-offset="976">
           <folding />
         </state>
       </provider>
