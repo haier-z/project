@@ -13,6 +13,7 @@ require(['$'], function ($) {
         '主页',
         'index.html'
     );
+    eval("require(['page/historyBack/index/index'], function () {});");
     $next.on('click', function () {
         history.pushState(
             {},
@@ -24,7 +25,7 @@ require(['$'], function ($) {
 //            "require(['page/test/test'], function (test) {});"
 //            'alert(1);'
 //        );
-        eval("require(['page/historyBack/test/test'], function (test) {});");
+        eval("require(['page/historyBack/test/test'], function () {});");
     });
     $back.on('click', function () {
         history.back();
@@ -34,4 +35,6 @@ require(['$'], function ($) {
         var currentState = history.state;
         console.log(currentState);
     });
+
+//    function
 });
