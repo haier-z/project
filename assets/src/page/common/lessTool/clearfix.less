@@ -1,0 +1,17 @@
+/**
+ *  浮动相关的方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+
+/* @section 清除浮动*/
+.clearfix() {
+  &:before, &:after {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}

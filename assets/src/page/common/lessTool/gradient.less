@@ -1,0 +1,18 @@
+/**
+ *  css3渐变相关方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+
+/**
+ * @section 设置元素背景——一般线性渐变
+ * @angel 角度
+ * @reset 自定义扩展颜色配置参数
+ */
+.background-linear-gradient(@angel:0deg; @rest...){
+   background: -webkit-linear-gradient(@angel, @rest); /* Safari 5.1 - 6.0 */
+   background: -o-linear-gradient(@angel, @rest); /* Opera 11.1 - 12.0 */
+   background: -moz-linear-gradient(@angel, @rest); /* Firefox 3.6 - 15 */
+   background: linear-gradient(@angel, @rest); /* 标准的语法 */
+}

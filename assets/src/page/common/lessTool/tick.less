@@ -1,0 +1,26 @@
+/**
+ *   @section css模拟对勾√
+ *   @author zhangmingrui
+ *   参数说明:
+ *      border-width: 对勾border宽度
+ *      color: 对勾颜色
+ *      width: 对勾长边的长度
+ *      height: 对勾短边的长度
+ *   使用方法：
+ *      .myclass{
+ *          .tick(...);
+ *      }
+ *      <i class="myclass"></i>
+ * }
+ */
+
+@import 'transform';
+
+.tick(@border-width:2px,@color:#fff,@width:20rem,@height:8rem){
+    display: inline-block;
+    border-left: @border-width solid @color;
+    border-bottom: @border-width solid @color;
+    width: (@width / 40rem);
+    height: (@height / 40rem);
+    .transform(rotate(-45deg));
+}

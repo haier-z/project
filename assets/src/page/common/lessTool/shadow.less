@@ -1,0 +1,19 @@
+/**
+ *   @section shadow阴影方法
+ *   @author zhangmingrui | 592044573@qq.com
+ *   @date created 2016-05-30
+ *   参数说明：psd中的混合投影参数
+ *      @blur 距离
+ *      @spread 扩展
+ *      @size 大小
+ *      @angle 角度     小数
+ *      @color 结合设置的不透明度用rgba格式表示
+ *   @example .shadow(12rem,0.1,40rem,90,rgba(101,141,254,0.4));
+ */
+.shadow(@blur:20rem,@spread:0.5,@size:20rem,@angle:90,@color:rgba(0,0,0,0.4)){
+    @h-shadow: (@blur / 40rem) * cos(180-@angle);
+    @v-shadow: (@blur / 40rem) * sin(180-@angle);
+    @spread-radius: (@size / 40rem) * @spread;
+    @blur-radius: (@size / 40rem) - @spread-radius;
+    box-shadow: @h-shadow @v-shadow @blur-radius @spread-radius @color;
+}

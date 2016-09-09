@@ -1,0 +1,57 @@
+/**
+ *  文字换行折行等相关的方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+
+/*折行*/
+.break-line() {
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all; 
+}
+/*多行超出显示省略号——css3——webkit内核支持*/
+.multi-ellipsis(@line:1) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box; 
+  -webkit-line-clamp: @line; 
+  -webkit-box-orient: vertical;
+}
+/*单行超出显示省略号——css3*/
+.single-ellipsis() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/**
+ *   @section 针对某些情况下，行高不生效。
+ *   原理：决定行高的是行内最高的元素的值。
+ */
+.line-height(){
+    &:after {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        vertical-align: middle;
+    }
+}
+/**
+ *   给placeholder设置颜色
+ */
+.placeholder-color(@color) {
+    &::-moz-placeholder {
+        color: @color;
+    }
+    &::-webkit-input-placeholder {
+        color: @color;
+    }
+    &:-ms-input-placeholder {
+        color: @color;
+    }
+    // 去掉 gl > ie 10 清楚文本的 X
+    &::-ms-clear {
+        display: none;
+    }
+}
