@@ -4,6 +4,34 @@
  * @overviews  demo
  */
 
-require([], function () {
+require(['$'], function ($) {
+    var $next = $('.js-next'),
+        $back = $('.js-back'),
+        host = window.location.host;
+    history.replaceState(
+        null,
+        '主页',
+        'index.html'
+    );
+    $next.on('click', function () {
+        history.pushState(
+            {},
+            'test',
+            '/views/historyBack/test.html'
+        );
+//        $('#J_content').html('<h1>125</h1>');
+//        $('#J_script').html(
+//            "require(['page/test/test'], function (test) {});"
+//            'alert(1);'
+//        );
+        eval("require(['page/historyBack/test/test'], function (test) {});");
+    });
+    $back.on('click', function () {
+        history.back();
+    });
 
+    window.addEventListener("popstate", function() {
+        var currentState = history.state;
+        console.log(currentState);
+    });
 });

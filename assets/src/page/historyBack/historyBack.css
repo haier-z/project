@@ -1,0 +1,126 @@
+/**
+ *   @section 所有方法引入
+ *   @author zhaoli
+ */
+/**
+ *   @section css模拟上下箭头
+ *   @author zhangmingrui
+ *   参数说明:
+ *      width: 箭头宽度
+ *      height: 箭头高度
+ *      color: 箭头颜色
+ *      border-width: 箭头宽度
+ *   使用方法：
+ *      .myclass {
+ *          .g-arrow();
+ *      }
+ *      <i class="myclass up"></i> 向上箭头
+ *      <i class="myclass down"></i> 向下箭头
+ *      <i class="myclass right"></i> 向右箭头
+ *      <i class="myclass left"></i> 向左箭头
+ */
+/**
+ *  css3-transform动画
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/**
+ *   @section 所有属性值都自己设置
+ */
+/**
+ *  浮动相关的方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/* @section 清除浮动*/
+/**
+ *  flex布局相关的方法，兼容各种浏览器的私有属性。
+ *    flex布局现在某些安卓机上的浏览器不支持
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/***伸缩容器属性***/
+/*设置容器为flex伸缩布局*/
+/*主轴方向*/
+/*主轴对齐*/
+/*侧轴对齐，对齐伸缩项目*/
+/*伸缩行换行*/
+/*对齐伸缩行*/
+/*速记形式*/
+/***设置伸缩项目属性***/
+/*设置伸缩项目的顺序*/
+/*指定伸缩项目如何分配主轴上的剩余空间*/
+/**
+ *  css3渐变相关方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/**
+ * @section 设置元素背景——一般线性渐变
+ * @angel 角度
+ * @reset 自定义扩展颜色配置参数
+ */
+/**
+ *  文字换行折行等相关的方法
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/*折行*/
+/*多行超出显示省略号——css3——webkit内核支持*/
+/*单行超出显示省略号——css3*/
+/**
+ *   @section 针对某些情况下，行高不生效。
+ *   原理：决定行高的是行内最高的元素的值。
+ */
+/**
+ *   给placeholder设置颜色
+ */
+/**
+ *   @section shadow阴影方法
+ *   @author zhangmingrui | 592044573@qq.com
+ *   @date created 2016-05-30
+ *   参数说明：psd中的混合投影参数
+ *      @blur 距离
+ *      @spread 扩展
+ *      @size 大小
+ *      @angle 角度     小数
+ *      @color 结合设置的不透明度用rgba格式表示
+ *   @example .shadow(12rem,0.1,40rem,90,rgba(101,141,254,0.4));
+ */
+/**
+ *   @section css模拟对勾√
+ *   @author zhangmingrui
+ *   参数说明:
+ *      border-width: 对勾border宽度
+ *      color: 对勾颜色
+ *      width: 对勾长边的长度
+ *      height: 对勾短边的长度
+ *   使用方法：
+ *      .myclass{
+ *          .tick(...);
+ *      }
+ *      <i class="myclass"></i>
+ * }
+ */
+/**
+ *  css3-transition动画
+ *  @version 1.0
+ *  @author zhangmingrui | 592044573@qq.com
+ *  @date created 2015-12-02
+ */
+/**
+ *   @section 所有属性值都自己设置
+ */
+.go-next {
+  color: #13a400;
+  text-decoration: underline;
+}
+.go-back {
+  color: #f00;
+  text-decoration: underline;
+}
